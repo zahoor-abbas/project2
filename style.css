@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+.bgimg {
+  background-image: url("img/pic1.jpeg");
+  min-height: 713px;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 83%;
+  overflow: hidden;
+
+}
+.navvv{
+  display: flex;
+  justify-content: center;
+  padding: 10PX;
+}
+.navv {
+  display: flex;
+  width: 80%;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+.input-nav{
+ border: 1px solid white;
+ padding: 10px;
+}
+ .input-nav .input {
+  background: none;
+  outline: none;
+  border: none;
+}
+.navv .btn {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+.navv .btn i {
+  font-size: 18px;
+}
+/* bg text */
+.bgtext {
+ 
+  
+  color: #fff;
+  padding: 10PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+
+}
+.bgtext-innner{
+  width: 50%;
+  text-align: center;
+}
+.bgtext h1{
+    font-size: 4rem; 
+}
+.bgtext p{
+    line-height: 2.2;
+    text-align: justify;
+    font-weight: 500;
+}
+.readbtn{
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  background-color: #12c757;
+  padding: 12px 84PX 12PX 83PX;
+  
+
+}
+.receipebtn{
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 12PX 46PX 12PX 45PX;
+  
+}
+/* section-cards*/
+.section-cards{
+  display: flex;
+  
+  justify-content: center;
+}
+.cards{
+width: 80%;
+display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+
+}
+.top-left{
+  width: 50%;
+  display: flex; 
+}
+.top-left-img{
+}
+.top-left-img img{
+  width: 177px;
+  height: 177px;
+  object-fit: cover;
+}
+.top-left-text{ 
+
+}
+.top-left-text h4{
+  font-size: 20px;
+}
+.top-left-text h5{
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+/* Helthy section */
+.healthy-section{
+  background-color: #F0CF56;
+}
+.healthy{
+  display: flex;
+  flex-wrap: wrap;
+}
+.healthy-left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: #fff;
+}
+.healthy-leftiner{
+  width: 70%;
+}
+.healthy-left h2{
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.healthy-left p{
+  margin: 30px 0;
+  line-height: 2;
+}
+.healthy-right{
+  width: 50%;
+}
+@media only screen and (max-width: 600px){
+    .bgtext{
+      
+    
+    }
+  .bgtext p{
+    width: 100%;
+}
+.bgtext h1{
+  font-size: 2rem; 
+}
+
+.cards{
+  flex-direction: column;
+   
+  
+  }
+  .top-left{
+    width: 100%;
+    flex-direction: column;
+  }
+  .healthy{
+    flex-direction: column;
+  }
+  .healthy-left{
+    width: 100%;
+    padding: 10px;
+  
+  }
+  .healthy-right{
+    width: 100%;
+  }
+  .healthy-leftiner{
+    width: 100%;
+   
+
+  }
+  .receipebtn{
+    margin-top: 10px;
+    
+  }
+ .bgtext{
+  margin-top: 10px;
+
+ }
+ .bgtext p {
+  
+ }
+}
